@@ -1,0 +1,13 @@
+﻿  main.cpp
+  mpi_lib.cpp
+  Создание кода...
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_size в функции main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_rank в функции main.
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Isend в функции "void __cdecl Isend(int,int,int,int,int,int *,int)" (?Isend@@YAXHHHHHPEAHH@Z).
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Irecv в функции "void __cdecl Irecv(int,int,int,int,int,int,int *,int)" (?Irecv@@YAXHHHHHHPEAHH@Z).
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Wait в функции "void __cdecl Wait(int *,struct MPI_Status *)" (?Wait@@YAXPEAHPEAUMPI_Status@@@Z).
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Barrier в функции "void __cdecl Irecv(int,int,int,int,int,int,int *,int)" (?Irecv@@YAXHHHHHHPEAHH@Z).
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Init в функции "void __cdecl Init(int *,char * * *)" (?Init@@YAXPEAHPEAPEAPEAD@Z).
+mpi_lib.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Finalize в функции "void __cdecl Finalize(void)" (?Finalize@@YAXXZ).
+C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\msmpi.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\Андрей\Desktop\LR4IPP-main\x64\Debug\LR4IPP.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
